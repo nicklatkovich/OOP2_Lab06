@@ -1,5 +1,5 @@
 ﻿namespace OOP_Lab06 {
-    partial class Form1 {
+    partial class MainForm {
         /// <summary>
         /// Required designer variable.
         /// </summary>
@@ -143,7 +143,7 @@
             this.RightButton2.UseVisualStyleBackColor = true;
             this.RightButton2.Click += new System.EventHandler(this.RightButton2_Click);
             // 
-            // Form1
+            // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -158,8 +158,8 @@
             this.Controls.Add(this.LessCheck);
             this.Controls.Add(this.MoreCheck);
             this.Controls.Add(this.Input1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "MainForm";
+            this.Text = "String Comparator";
             this.ResumeLayout(false);
             this.PerformLayout();
 

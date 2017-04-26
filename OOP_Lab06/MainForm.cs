@@ -9,8 +9,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace OOP_Lab06 {
-    public partial class Form1 : Form {
-        public Form1( ) {
+    public partial class MainForm : Form {
+        public MainForm( ) {
             InitializeComponent( );
             Input1.TextChanged += StartCheck;
             Input2.TextChanged += StartCheck;
